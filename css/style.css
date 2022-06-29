@@ -1,0 +1,159 @@
+*{
+    font-family: 'Cairo', sans-serif;;
+}
+/*FOOTER*/
+.black{
+    background-color: black;
+    height: 30vh;
+    margin-top: 180px;
+}
+.titulo-1{
+    color: aliceblue;
+    padding-top: 60px;
+}
+.direccion, .email{
+    color:aliceblue;
+    padding-top: 60px;
+}
+.row span{
+    font-weight: 600;
+}
+.gray{
+    color:#51524c;
+    background-color: #c4c4c4;
+    height: 7vh;
+}
+.cop{
+    top: 10px;
+}
+/*INDEX*/
+.descripcion h3{
+    color: #51524c;
+    margin-top: 80px;
+}
+.descripcion p{
+    color: #777777;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 30px;
+}
+.cont h4{
+    color:#51524c;
+}
+.cont h5{
+    color: #333333;
+    margin-top: 100px;
+}
+.cont p{
+    color: #777777;
+    margin-top: 20px;
+}
+.fotos{
+    height: 80vh;
+}
+/*AREAS DE PRACTICA*/
+.areas h1{
+    color:#333333;
+    margin-top: 50px;
+}
+.titulos5 h5{
+    color:#51524c;
+    padding-left: 70px;
+    margin-top: 60px;
+}
+.titulos5 ul li{
+    color:#777777;
+    padding-left: 70px;
+    list-style-type: none;
+    line-height: 50px;
+}
+/*CONTACTO*/
+.grids-contacto{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 15vh repeat(2,50vh) 10vh;
+    grid-template-areas: "aside aside" "header section" "img section" "footer footer";
+}
+aside{
+    grid-area: aside;
+}
+.titulo{
+    color:#333333;
+    padding-top: 50px;
+}
+.datos{
+    grid-area: header;
+}
+.datos h2{
+    color: #51524c;
+    line-height: 100px;
+    margin-top: 120px;
+    padding-left: 100px;
+}
+.datos nav ul li {
+    color: #756c6c;
+    line-height: 30px;
+    padding-left: 70px;
+    list-style-type: none;
+}
+.datos1{
+    grid-area: section;
+    margin-top: 150px;
+    padding-left: 100px;
+}
+.datos1 label{
+    color:#51524c;
+    line-height: 25px;
+}
+.form-floating{
+    padding-right: 150px;
+}
+/*INSTITUCION*/
+.titulo3{
+    background-image: url(../img/logo.jpg);
+    color:#c4c4c4;
+    height: 70vh;
+    padding-top: 170px;
+}
+.titulo4{
+    margin-top: 50px;
+    color:#51524c;
+}
+.descripcion1 p{
+    color:#333333;
+    margin-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.descripcion1 p span{
+    color:#51524c;
+    font-weight: 700;
+}
+.des-t{
+    color: #51524c;
+    font-weight: 700;
+    padding-left: 40px;
+    margin-top: 50px;
+}
+.items {
+    color:#333333;
+    padding-left: 100px;
+    line-height: 40px;
+}
+*MIEMBROS*/
+.hombre, .mujer{
+    height: 100vh;
+}
+.miembros h1{
+    color:#333333;
+    padding-top: 40px;
+}
+.miembros h3{
+    color:#333333;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+.miembros p{
+    color:#777777;
+    padding-left: 100px;
+}
